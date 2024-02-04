@@ -2,9 +2,14 @@
 
 class Post{
     function __construct(){
+        echo "Hola desde el CONSTRUCTOR de POST Controller <br>"; 
 
     }
 
+    function new(){
+        echo "Hola desde el método NEW de POST Controller <br>"; 
+
+    }
     //GET
     function getAllPosts(){
         echo "Hola desde el metodo getAllPosts() de POST Controller <br>"; 
